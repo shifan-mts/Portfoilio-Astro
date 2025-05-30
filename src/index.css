@@ -110,3 +110,35 @@ p{
 header,footer{
     margin-right: 5%;
 }
+
+/* page: communities */
+.card{
+    border: solid ;
+    
+    display: flex;
+    gap: 8px;
+    width: auto;
+    margin-top: 4rem;
+    
+}
+.com-title{
+    margin: 0.7rem;
+}
+.com-title h4{
+    margin: 0%;
+}
+.sub-title{
+    font-weight: 100;
+}
+/* .btn{
+    background-color: rgb(230, 0, 0);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+.back{
+    padding: ;
+    background-color: white;
+} */
