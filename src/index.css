@@ -78,14 +78,28 @@ p{
   
  }
  .icons{
-    margin-left: 25%;
+    margin-left: 22.5%;
     
     display: flex;
-    align-items: center;
+   
+    flex-wrap: wrap;
 
     gap: 5px;
  }
+ .ico{
+    width: 200px;
+    display: flex;
+    align-items: center;
+ }
 
-.para{
-    width: 65%;
+ .para p {
+    width: 80%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  
+    overflow: hidden;
+}
+
+header,footer{
+    margin-right: 5%;
 }
