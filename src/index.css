@@ -37,8 +37,8 @@ body{
     text-decoration: none;
 
 }
-.nav-items a:visited a::after{
-    color: black;
+.nav-items a:hover{
+    color: rgb(63, 63, 63);
 }
  /* Header */
  .names{
@@ -78,14 +78,21 @@ p{
   
  }
  .icons{
-    margin-left: 22.5%;
+   
     
     display: flex;
    
     flex-wrap: wrap;
 
     gap: 5px;
+    margin-left: 23.75%;
  }
+
+@media (max-width:768px){
+    .icons{
+        margin-left: 23%;
+    }
+}
  .ico{
     width: 200px;
     display: flex;
